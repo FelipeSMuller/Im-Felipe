@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+.menu{
+    background-color:#e1eff0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+
+}
+
+.menu a:hover{
+    background-color: rgb(0, 0, 0);
+    color: grey;  
+    border-bottom:  5px solid #66BFBF;
+    
+   
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+}
+.top-container{
+    background-color:#e1eff0;
+    position: relative;
+    padding-top: 150px;
+}
+
+.top-container h1{
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+    color:  #66BFBF;
+}
+
+.top-container h2{
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-family: 'Pacifico', cursive;
+    color:  #66BFBF;
+
+}
+
+.nuvem-inferior{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.nuvem-superior{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+.minha-foto{
+    margin: 100px auto 20px auto;
+    height: 200px;
+    border: 5px solid  #66BFBF;
+    
+}
+
+.middle-container{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color:  #000000
+   
+}
+.foto-habilidade{
+    height: 200px;
+    width: 25%;
+    float: right;
+    
+
+}
+.habilidadeDois{
+    height: 200px;
+    width: 25%;
+    float: left;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2; 
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color:  #000000
+
+}
+
+.skills{
+    margin: 100px auto auto auto;
+    font-size: 20px;
+    letter-spacing: 6px;
+    font-family: 'Pacifico', cursive;
+    color:  #66BFBF
+}
+
+h2{
+    color:  #66BFBF
+}
+h3{
+    color:  #66BFBF
+}
+
+
+.bottom-container{
+    padding: 100px;
+    background-image:linear-gradient(180deg,#e1eff0,#e1eff0,#e1eff0,#e1eff0)
+}
+.footer-link img{
+    height: 50px;
+}
+
+.footer-link img:hover{
+    opacity: 0.4;
+}
+
+
+.contact-me {
+
+    margin: 100px auto 200px auto;
+    line-height: 3;
+   
+}
+
+.contact-me a{
+    font-family: initial;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #66BFBF;
+    border-radius: 5px;
+}
+
+.contact-me a:hover{
+
+    color: #66BFBF;
+    background-color: black;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+   
